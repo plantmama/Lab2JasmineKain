@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #efe7a9;
+    margin: 0;
+}
+
+header {
+    background-color: #efe7a9;
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+}
+
+main {
+    background-color: #efe7a9;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+section {
+    text-align: left; /* Align text to the left */
+}
+
+section p { /* About the creators page paragraph */
+    font-family: cursive;
+    margin-left: 0; /* Remove any left margin */
+}
+.clothing-section {
+    width: 50%;
+ }
+
+.product {
+    max-width: 100%;
+    height: auto;
+    background-color: #efe7a9; /* Background color for product */
+    padding: 10px 10px 0; /* Adjust padding */
+    box-sizing: border-box;
+}
+
+.product img { /* height for pics fashion */
+    display: block;
+    width: 100px;
+    height: auto;
+}
+
+.product p {
+    margin-top: 10px; /* Adjust margin between image and text */
+}
+
+/* Change color to red on hover */
+nav a:hover {
+    color: red;
+}
+
+/* Style for Yaejio logo */
+.logo-container {
+    display: inline-block; /* Ensures the container doesn't take full width */
+    margin-right: 0px; /* Adjust as needed for spacing */
+    margin-left: 12px;
+}
+
+
+
+
+/* Style for the teamwork */
+.teamwork-image { /* INSTEAD OF .IMG TO SPECIFY TEAMWORK IMG IN ONE CSS FILE */
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    z-index: -1; /* Image is behind text */
+    width: 300px; /* Adjust width  */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #efe7a9;
+    text-align: center;
+    border-top: 1px solid #060000; /* This is the line above the footer */
+}
